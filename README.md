@@ -84,4 +84,5 @@ semop(semid, &sem_b, 1);
 ###  3.示例程序
 （1 mysemaphore.cpp 创建信号量，并使用
 （2  mysemaphore.h  ShareMemoryClock.cpp  创建共享内存并加信号量锁
+编译： g++ -o ShareMemoryClock ShareMemoryClock.cpp mysemaphore.h
 
